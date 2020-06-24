@@ -1,0 +1,8 @@
+{
+    "launch": {
+        "python.analysis.disabled":["unresolved-import"]
+    },
+    "python.linting.pylintArgs": [
+        "--disabled=w611,w614"
+    ]
+}
