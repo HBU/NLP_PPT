@@ -6,13 +6,13 @@
 
 import jieba
 print("--------------------------------------------------------")
-seg_list = jieba.cut("我来到河北保定河北大学上学", cut_all=True)
+seg_list = jieba.cut("江大桥是计科二班的同学", cut_all=True)
 print("全模式: " + "/ ".join(seg_list)) # 全模式
 print("--------------------------------------------------------")
-seg_list = jieba.cut("我来到河北保定河北大学上学", cut_all=False)
+seg_list = jieba.cut("下雨天留客天留我不留", cut_all=False)
 print("精确模式: " + "/ ".join(seg_list)) # 精确模式
 print("--------------------------------------------------------")
-seg_list = jieba.cut("我来到河北保定河北大学上学") # 默认是精确模式
+seg_list = jieba.cut("江大桥是计科二班的同学") # 默认是精确模式
 print(", ".join(seg_list))
 print("--------------------------------------------------------")
 str = "我是一个中国人"

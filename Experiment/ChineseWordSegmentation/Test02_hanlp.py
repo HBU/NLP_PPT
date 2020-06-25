@@ -7,5 +7,5 @@
 # 2020.6.24 hanLP在笔记本上正常使用。 一路也是踩坑无数。
 
 from pyhanlp import *
-content = "我来到河北保定河北大学上学"
+content = "保定市长江大桥"
 print(HanLP.segment(content))
