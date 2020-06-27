@@ -1,4 +1,4 @@
 # NLP_PPT
 
-- PPT 放置幻灯片（slides）
-- Experiment 放置代码
+- PPT：幻灯片（Slides）
+- Experiment：代码（Codes）
