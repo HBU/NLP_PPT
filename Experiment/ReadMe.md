@@ -1,4 +1,4 @@
-### NLP实验计划 资料收集、探索中 
+### NLP实验计划1.0（资料收集、探索中 ）
 ##### 预计2022-2023年 秋学期 ，“人工智能专业”开实验课，实验大纲研制中
 ##### 现阶段，这部分内容课穿插到“计科专业”NPL理论课演示中 （PS：计科专业NPL课程无实验课）
 
@@ -24,4 +24,10 @@
 - TextCategorization 文本分类
 - TextToSpeech 语音合成 TTS
 - AutomaticSpeechRecognition 语音识别 ASR
+
+
+
+
+-------------------------
+Create by David 2020.6.28
 
