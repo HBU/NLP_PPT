@@ -24,6 +24,7 @@
 - TextCategorization 文本分类
 - TextToSpeech 语音合成 TTS
 - AutomaticSpeechRecognition 语音识别 ASR
+- RecommendationSystem 推荐系统（协同过滤 UserCF）
 
 
 
