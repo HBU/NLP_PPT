@@ -19,6 +19,7 @@
 - WordCloud  词云
 -------------
 - ChineseWordSegmentation 中文分词
+- CWS_MaxMacth 基于词典的中文分词算法：最大匹配法
 - NamedEntityRecognition 命名实体识别
 - Part-of-speechTagging 语义标注
 - TextCategorization 文本分类
