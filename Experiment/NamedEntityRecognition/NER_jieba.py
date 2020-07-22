@@ -149,7 +149,7 @@ print(text2, time_extract(text2), sep=':')
 text3 = '我要从26号下午4点住到11月2号'
 print(text3, time_extract(text3), sep=':')
 # 我要从26号下午4点住到11月2号:['2019-06-09 00:00:00']
-text4 = '我要预订今天到30的房间'
+text4 = '我要预订今天到30号的房间'
 print(text4, time_extract(text4), sep=':')
 text5 = '今天30号呵呵'
 print(text5, time_extract(text5), sep=':')

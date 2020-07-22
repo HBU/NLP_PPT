@@ -1,9 +1,5 @@
-# -*- coding:utf-8 -*-
-# Author：hankcs
-# Date: 2018-07-04 17:41
+# -*- coding:utf-8 -*-# Author：hankcs# Date: 2018-07-04 17:41
 # 《自然语言处理入门》7.2.1 《人民日报》语料库与 PKU 标注集
-# 配套书籍：http://nlp.hankcs.com/book.php
-# 讨论答疑：https://bbs.hankcs.com/
 import os
 
 from test_utility import ensure_data

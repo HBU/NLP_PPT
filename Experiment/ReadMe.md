@@ -19,7 +19,9 @@
 - WordCloud  词云
 -------------
 - ChineseWordSegmentation 中文分词
+- CWS_HMM_Viterbi 基于统计的中文分词算法：隐马尔可夫模型&维特比算法
 - CWS_MaxMacth 基于词典的中文分词算法：最大匹配法
+- CWS_n-gram 基于统计的中文分词算法：n-gram模型
 - NamedEntityRecognition 命名实体识别
 - Part-of-speechTagging 语义标注
 - TextCategorization 文本分类

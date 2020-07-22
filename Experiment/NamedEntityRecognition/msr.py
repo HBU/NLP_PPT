@@ -1,9 +1,5 @@
-# -*- coding:utf-8 -*-
-# Author：hankcs
-# Date: 2018-06-08 15:35
+# -*- coding:utf-8 -*-# Author：hankcs# Date: 2018-06-08 15:35
 # 3.2.2 微软亚洲研究院语料库 MSR
-# 配套书籍：http://nlp.hankcs.com/book.php
-# 讨论答疑：https://bbs.hankcs.com/
 import os
 
 from test_utility import ensure_data, test_data_path

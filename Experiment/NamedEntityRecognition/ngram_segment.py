@@ -1,9 +1,5 @@
-# -*- coding:utf-8 -*-
-# Author：hankcs
-# Date: 2018-06-06 13:19
+# -*- coding:utf-8 -*-# Author：hankcs# Date: 2018-06-06 13:19
 # 《自然语言处理入门》3.3 训练
-# 配套书籍：http://nlp.hankcs.com/book.php
-# 讨论答疑：https://bbs.hankcs.com/
 from jpype import JString
 
 from pyhanlp import *
