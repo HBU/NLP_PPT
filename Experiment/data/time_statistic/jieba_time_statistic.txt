@@ -1,0 +1,8 @@
+{"testing/pku": 1.164689}
+{"testing/pku": 1.1201450000000004}
+{"testing/pku": 1.3998465000000002}
+{"testing/pku": 1.1555449999999996}
+{"testing/pku": 1.1461663}
+{"testing/pku": 1.1389832000000002}
+{"testing/pku": 1.1437342}
+{"testing/pku": 1.1224664}
