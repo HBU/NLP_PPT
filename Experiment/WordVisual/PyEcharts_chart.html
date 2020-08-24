@@ -4,15 +4,14 @@
     <meta charset="UTF-8">
     <title>Awesome-pyecharts</title>
             <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
-        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/china.js"></script>
 
 </head>
 <body>
-    <div id="465146c1b0524bc1bd067f8105742beb" class="chart-container" style="width:900px; height:500px;"></div>
+    <div id="ac77f51586734c219b11642ca736ac65" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_465146c1b0524bc1bd067f8105742beb = echarts.init(
-            document.getElementById('465146c1b0524bc1bd067f8105742beb'), 'white', {renderer: 'canvas'});
-        var option_465146c1b0524bc1bd067f8105742beb = {
+        var chart_ac77f51586734c219b11642ca736ac65 = echarts.init(
+            document.getElementById('ac77f51586734c219b11642ca736ac65'), 'white', {renderer: 'canvas'});
+        var option_ac77f51586734c219b11642ca736ac65 = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -49,41 +48,340 @@
     ],
     "series": [
         {
-            "type": "scatter",
-            "name": "geo",
-            "coordinateSystem": "geo",
-            "symbolSize": 12,
+            "type": "graph",
+            "layout": "force",
+            "symbolSize": 10,
+            "circular": {
+                "rotateLabel": false
+            },
+            "force": {
+                "repulsion": 8000,
+                "edgeLength": 50,
+                "gravity": 0.2
+            },
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "roam": true,
+            "draggable": false,
+            "focusNodeAdjacency": true,
             "data": [
                 {
-                    "name": "\u6d4b\u8bd5\u70b9",
-                    "value": [
-                        116.39770014211535,
-                        39.90779994986951,
-                        51
-                    ]
+                    "name": "\u7ed3\u70b91",
+                    "symbolSize": 10
+                },
+                {
+                    "name": "\u7ed3\u70b92",
+                    "symbolSize": 20
+                },
+                {
+                    "name": "\u7ed3\u70b93",
+                    "symbolSize": 30
+                },
+                {
+                    "name": "\u7ed3\u70b94",
+                    "symbolSize": 40
+                },
+                {
+                    "name": "\u7ed3\u70b95",
+                    "symbolSize": 50
+                },
+                {
+                    "name": "\u7ed3\u70b96",
+                    "symbolSize": 40
+                },
+                {
+                    "name": "\u7ed3\u70b97",
+                    "symbolSize": 30
+                },
+                {
+                    "name": "\u7ed3\u70b98",
+                    "symbolSize": 20
                 }
             ],
-            "label": {
+            "edgeLabel": {
                 "show": false,
                 "position": "top",
                 "margin": 8
             },
-            "rippleEffect": {
-                "show": true,
-                "brushType": "stroke",
-                "scale": 2.5,
-                "period": 4
-            }
+            "edgeSymbol": [
+                null,
+                null
+            ],
+            "edgeSymbolSize": 10,
+            "links": [
+                {
+                    "source": "\u7ed3\u70b91",
+                    "target": "\u7ed3\u70b91"
+                },
+                {
+                    "source": "\u7ed3\u70b91",
+                    "target": "\u7ed3\u70b92"
+                },
+                {
+                    "source": "\u7ed3\u70b91",
+                    "target": "\u7ed3\u70b93"
+                },
+                {
+                    "source": "\u7ed3\u70b91",
+                    "target": "\u7ed3\u70b94"
+                },
+                {
+                    "source": "\u7ed3\u70b91",
+                    "target": "\u7ed3\u70b95"
+                },
+                {
+                    "source": "\u7ed3\u70b91",
+                    "target": "\u7ed3\u70b96"
+                },
+                {
+                    "source": "\u7ed3\u70b91",
+                    "target": "\u7ed3\u70b97"
+                },
+                {
+                    "source": "\u7ed3\u70b91",
+                    "target": "\u7ed3\u70b98"
+                },
+                {
+                    "source": "\u7ed3\u70b92",
+                    "target": "\u7ed3\u70b91"
+                },
+                {
+                    "source": "\u7ed3\u70b92",
+                    "target": "\u7ed3\u70b92"
+                },
+                {
+                    "source": "\u7ed3\u70b92",
+                    "target": "\u7ed3\u70b93"
+                },
+                {
+                    "source": "\u7ed3\u70b92",
+                    "target": "\u7ed3\u70b94"
+                },
+                {
+                    "source": "\u7ed3\u70b92",
+                    "target": "\u7ed3\u70b95"
+                },
+                {
+                    "source": "\u7ed3\u70b92",
+                    "target": "\u7ed3\u70b96"
+                },
+                {
+                    "source": "\u7ed3\u70b92",
+                    "target": "\u7ed3\u70b97"
+                },
+                {
+                    "source": "\u7ed3\u70b92",
+                    "target": "\u7ed3\u70b98"
+                },
+                {
+                    "source": "\u7ed3\u70b93",
+                    "target": "\u7ed3\u70b91"
+                },
+                {
+                    "source": "\u7ed3\u70b93",
+                    "target": "\u7ed3\u70b92"
+                },
+                {
+                    "source": "\u7ed3\u70b93",
+                    "target": "\u7ed3\u70b93"
+                },
+                {
+                    "source": "\u7ed3\u70b93",
+                    "target": "\u7ed3\u70b94"
+                },
+                {
+                    "source": "\u7ed3\u70b93",
+                    "target": "\u7ed3\u70b95"
+                },
+                {
+                    "source": "\u7ed3\u70b93",
+                    "target": "\u7ed3\u70b96"
+                },
+                {
+                    "source": "\u7ed3\u70b93",
+                    "target": "\u7ed3\u70b97"
+                },
+                {
+                    "source": "\u7ed3\u70b93",
+                    "target": "\u7ed3\u70b98"
+                },
+                {
+                    "source": "\u7ed3\u70b94",
+                    "target": "\u7ed3\u70b91"
+                },
+                {
+                    "source": "\u7ed3\u70b94",
+                    "target": "\u7ed3\u70b92"
+                },
+                {
+                    "source": "\u7ed3\u70b94",
+                    "target": "\u7ed3\u70b93"
+                },
+                {
+                    "source": "\u7ed3\u70b94",
+                    "target": "\u7ed3\u70b94"
+                },
+                {
+                    "source": "\u7ed3\u70b94",
+                    "target": "\u7ed3\u70b95"
+                },
+                {
+                    "source": "\u7ed3\u70b94",
+                    "target": "\u7ed3\u70b96"
+                },
+                {
+                    "source": "\u7ed3\u70b94",
+                    "target": "\u7ed3\u70b97"
+                },
+                {
+                    "source": "\u7ed3\u70b94",
+                    "target": "\u7ed3\u70b98"
+                },
+                {
+                    "source": "\u7ed3\u70b95",
+                    "target": "\u7ed3\u70b91"
+                },
+                {
+                    "source": "\u7ed3\u70b95",
+                    "target": "\u7ed3\u70b92"
+                },
+                {
+                    "source": "\u7ed3\u70b95",
+                    "target": "\u7ed3\u70b93"
+                },
+                {
+                    "source": "\u7ed3\u70b95",
+                    "target": "\u7ed3\u70b94"
+                },
+                {
+                    "source": "\u7ed3\u70b95",
+                    "target": "\u7ed3\u70b95"
+                },
+                {
+                    "source": "\u7ed3\u70b95",
+                    "target": "\u7ed3\u70b96"
+                },
+                {
+                    "source": "\u7ed3\u70b95",
+                    "target": "\u7ed3\u70b97"
+                },
+                {
+                    "source": "\u7ed3\u70b95",
+                    "target": "\u7ed3\u70b98"
+                },
+                {
+                    "source": "\u7ed3\u70b96",
+                    "target": "\u7ed3\u70b91"
+                },
+                {
+                    "source": "\u7ed3\u70b96",
+                    "target": "\u7ed3\u70b92"
+                },
+                {
+                    "source": "\u7ed3\u70b96",
+                    "target": "\u7ed3\u70b93"
+                },
+                {
+                    "source": "\u7ed3\u70b96",
+                    "target": "\u7ed3\u70b94"
+                },
+                {
+                    "source": "\u7ed3\u70b96",
+                    "target": "\u7ed3\u70b95"
+                },
+                {
+                    "source": "\u7ed3\u70b96",
+                    "target": "\u7ed3\u70b96"
+                },
+                {
+                    "source": "\u7ed3\u70b96",
+                    "target": "\u7ed3\u70b97"
+                },
+                {
+                    "source": "\u7ed3\u70b96",
+                    "target": "\u7ed3\u70b98"
+                },
+                {
+                    "source": "\u7ed3\u70b97",
+                    "target": "\u7ed3\u70b91"
+                },
+                {
+                    "source": "\u7ed3\u70b97",
+                    "target": "\u7ed3\u70b92"
+                },
+                {
+                    "source": "\u7ed3\u70b97",
+                    "target": "\u7ed3\u70b93"
+                },
+                {
+                    "source": "\u7ed3\u70b97",
+                    "target": "\u7ed3\u70b94"
+                },
+                {
+                    "source": "\u7ed3\u70b97",
+                    "target": "\u7ed3\u70b95"
+                },
+                {
+                    "source": "\u7ed3\u70b97",
+                    "target": "\u7ed3\u70b96"
+                },
+                {
+                    "source": "\u7ed3\u70b97",
+                    "target": "\u7ed3\u70b97"
+                },
+                {
+                    "source": "\u7ed3\u70b97",
+                    "target": "\u7ed3\u70b98"
+                },
+                {
+                    "source": "\u7ed3\u70b98",
+                    "target": "\u7ed3\u70b91"
+                },
+                {
+                    "source": "\u7ed3\u70b98",
+                    "target": "\u7ed3\u70b92"
+                },
+                {
+                    "source": "\u7ed3\u70b98",
+                    "target": "\u7ed3\u70b93"
+                },
+                {
+                    "source": "\u7ed3\u70b98",
+                    "target": "\u7ed3\u70b94"
+                },
+                {
+                    "source": "\u7ed3\u70b98",
+                    "target": "\u7ed3\u70b95"
+                },
+                {
+                    "source": "\u7ed3\u70b98",
+                    "target": "\u7ed3\u70b96"
+                },
+                {
+                    "source": "\u7ed3\u70b98",
+                    "target": "\u7ed3\u70b97"
+                },
+                {
+                    "source": "\u7ed3\u70b98",
+                    "target": "\u7ed3\u70b98"
+                }
+            ]
         }
     ],
     "legend": [
         {
-            "data": [
-                "geo"
-            ],
-            "selected": {
-                "geo": true
-            },
+            "data": [],
+            "selected": {},
             "show": true,
             "padding": 5,
             "itemGap": 10,
@@ -102,7 +400,6 @@
         "alwaysShowContent": false,
         "showDelay": 0,
         "hideDelay": 100,
-        "formatter": function (params) {        return params.name + ' : ' + params.value[2];    },
         "textStyle": {
             "fontSize": 14
         },
@@ -111,18 +408,13 @@
     },
     "title": [
         {
-            "text": "\u52a0\u5165\u81ea\u5b9a\u4e49\u7684\u70b9",
+            "text": "Graph-\u57fa\u672c\u793a\u4f8b",
             "padding": 5,
             "itemGap": 10
         }
-    ],
-    "geo": {
-        "map": "china",
-        "roam": true,
-        "emphasis": {}
-    }
+    ]
 };
-        chart_465146c1b0524bc1bd067f8105742beb.setOption(option_465146c1b0524bc1bd067f8105742beb);
+        chart_ac77f51586734c219b11642ca736ac65.setOption(option_ac77f51586734c219b11642ca736ac65);
     </script>
 </body>
 </html>
