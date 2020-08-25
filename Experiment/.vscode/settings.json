@@ -5,5 +5,5 @@
     "python.linting.pylintArgs": [
         "--disabled=w611,w614"
     ],
-    "python.pythonPath": "C:\\Users\\David\\AppData\\Local\\Programs\\Python\\Python38\\python.exe"
+    "python.pythonPath": "C:\\Users\\David\\anaconda3\\python.exe"
 }
